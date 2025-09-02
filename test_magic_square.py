@@ -4,7 +4,8 @@ from magic_square import solve
 class TestMagicSquare(unittest.TestCase):
     def test_solution_sum(self):
         grid, s = solve()
-        # check magic sum
+        
+        
         self.assertEqual(s, 18)
 
     def test_rows(self):
