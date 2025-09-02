@@ -9,6 +9,7 @@ def solve():
         [3, 8, c],
     ]
     return grid, 5 + a + b
+    #done with this
 
 if __name__ == "__main__":
     grid, s = solve()
